@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFrame">
+      <UniqueIdentifier>{abc7abca-75c1-4baa-a897-cf1602b28044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obstacle">
+      <UniqueIdentifier>{ecf9035f-f763-4655-a2b0-f72351f331a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{c83b5d47-98c1-45fc-b7d5-702174b2ec16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{ef6bc5f0-8633-4dd9-a531-7c39595f3d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back">
+      <UniqueIdentifier>{46fed039-23ff-4696-9a59-8e362fe6fea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Back\PlaneApp">
+      <UniqueIdentifier>{233cc2b2-09ad-4b52-b6f3-d4805d2ca3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlaneApp">
+      <UniqueIdentifier>{b70de8ac-7039-49e8-8c40-f36f7c12e7bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGameFrame\GameFrame.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="CBack\CBack.cpp">
+      <Filter>Back</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer\CPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle\CObsFloat.cpp">
+      <Filter>Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle\CObsHorizon.cpp">
+      <Filter>Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle\CObstacle.cpp">
+      <Filter>Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle\CObstacleList.cpp">
+      <Filter>Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle\CObsTop.cpp">
+      <Filter>Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlaneApp\CPlaneApp.cpp">
+      <Filter>PlaneApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameFrame\GameFrame.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CBack\CBack.h">
+      <Filter>Back</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer\CPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle\CObsFloat.h">
+      <Filter>Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle\CObsHorizon.h">
+      <Filter>Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle\CObstacle.h">
+      <Filter>Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle\CObstacleList.h">
+      <Filter>Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle\CObsTop.h">
+      <Filter>Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlaneApp\CPlaneApp.h">
+      <Filter>PlaneApp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
